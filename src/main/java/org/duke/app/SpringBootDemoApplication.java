@@ -9,9 +9,9 @@ public class SpringBootDemoApplication {
 
     public static void main(String[] args) {
 
-        ApplicationContext ctx = SpringApplication.run(SpringBootDemoApplication.class, args);
+        ApplicationContext context = SpringApplication.run(SpringBootDemoApplication.class, args);
 
-        Alien obj = ctx.getBean(Alien.class);
+        Alien obj = context.getBean(Alien.class);
         obj.code();
 
     }
