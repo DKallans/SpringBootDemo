@@ -6,6 +6,8 @@ import org.springframework.stereotype.Component;
 public class Laptop {
 
     public  void compile(){
+        System.out.println("This is the compiler");
         System.out.println("Compiling....");
+        
     }
 }
